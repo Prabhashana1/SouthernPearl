@@ -20,7 +20,7 @@
 
 <nav class="navbar">
    <a href="#home">home</a>
-   <a href="#about">about</a>
+   <a href="#about">Activities</a>
    <a href="#room">room</a>
    <a href="#gallery">gallery</a>
    <a href="#review">review</a>
