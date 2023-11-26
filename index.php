@@ -19,8 +19,8 @@
 <!--<a href="#" class="logo"> <i class="fas fa-hotel"></i> hotel </a>-->
 
 <nav class="navbar">
-   <a href="#home">home</a>
-   <a href="#about">Activities</a>
+   <a href="index.php">home</a>
+   <a href="about.php">Activities</a>
    <a href="#room">room</a>
    <a href="#gallery">gallery</a>
    <a href="#review">review</a>
@@ -136,27 +136,7 @@
 <!-- end -->
 
 
-<!-- about -->
 
-<section class="about" id="about">
-
-<div class="row">
-
-   <div class="image">
-      <img src="images/about.jpg" alt="">
-   </div>
-
-   <div class="content">
-      <h3>about us</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium repellat aliquam dolore voluptates.</p>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium repellat aliquam dolore voluptates.</p>
-   </div>
-
-</div>
-
-</section>
-
-<!-- end -->
 
 <!-- room -->
 
