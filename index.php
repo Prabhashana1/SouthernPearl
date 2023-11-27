@@ -25,16 +25,16 @@ if(!isset($_SESSION["user"])){
     <img class="logo" src="./images/logo.png" alt="Logo">
 <!--<a href="#" class="logo"> <i class="fas fa-hotel"></i> hotel </a>-->
 
-<nav class="navbar">
-   <a href="index.php">home</a>
-   <a href="about.php">Activities</a>
-   <a href="#room">room</a>
-   <a href="#gallery">gallery</a>
-   <a href="#review">review</a>
-   <a href="#faq">faq</a>
-   <a href="#reservation" class="btn"> book now</a>
-   <a href="logout.php" class="btn-warning">Logout</a>
-</nav>
+   <nav class="navbar">
+      <a href="index.php">home</a>
+      <a href="activities.php">Activities</a>
+      <a href="room.php">room</a>
+      <a href="gallery.php">gallery</a>
+      <a href="review.php">review</a>
+      <a href="about.php">About</a>
+      <a href="reservation.php" class="btn"> book now</a>
+      <a href="logout.php" class="btn-warning">Logout</a>
+   </nav>
 
 <div id="menu-btn" class="fas fa-bars"></div>
 
@@ -47,6 +47,13 @@ if(!isset($_SESSION["user"])){
         <div class="swiper home-slider">
             <div class="swiper-wrapper">
                 <div class="swiper-slide slide" style="background: url(./images/home-slide1.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>It's Where Dreams Come True</h3>
+                        <a href="#" class="btn">Visit Our Offer</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/snorkelling-at-hikkaduwa.jpg) no-repeat;">
                     <div class="content">
                         <h3>It's Where Dreams Come True</h3>
                         <a href="#" class="btn">Visit Our Offer</a>
@@ -67,7 +74,14 @@ if(!isset($_SESSION["user"])){
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background: url(./images/home-slide4.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(./images/underwater.jpg) no-repeat;">
+                    <div class="content">
+                        <h3>It's Where Dreams Come True</h3>
+                        <a href="#" class="btn">Visit Our Offer</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background: url(./images/galss-bottom-boat.jpg) no-repeat;">
                     <div class="content">
                         <h3>It's Where Dreams Come True</h3>
                         <a href="#" class="btn">Visit Our Offer</a>

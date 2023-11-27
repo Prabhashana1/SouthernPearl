@@ -35,7 +35,7 @@ if(isset($_SESSION["user"])){
                     echo "<div class='alert alert-danger'>Password is incorrect!</div>";
                 }
             }else{
-                echo "<div class='alert alert-danger'>Email not found in our database!</div>";
+                echo "<div class='alert alert-danger'>Please check your email address!</div>";
             }
         }
 

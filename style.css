@@ -40,6 +40,7 @@ html::-webkit-scrollbar-thumb{
 
 section{
     padding: 5rem 7%;
+
 }
 
 .heading{
@@ -210,6 +211,10 @@ section{
 
 /* about */
 
+.about{
+    margin-top: 40px;
+}
+
 .about .row{
     display: flex;
     flex-wrap: wrap;
@@ -219,6 +224,7 @@ section{
 
 .about .row .image{
     flex: 1 1 30rem;
+    margin-top: 40px;
 }
 
 .about .row .image img{
