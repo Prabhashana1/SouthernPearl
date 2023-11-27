@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!isset($_SESSION["user"])){
+   header("location: login.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +33,7 @@
    <a href="#review">review</a>
    <a href="#faq">faq</a>
    <a href="#reservation" class="btn"> book now</a>
+   <a href="logout.php" class="btn-warning">Logout</a>
 </nav>
 
 <div id="menu-btn" class="fas fa-bars"></div>

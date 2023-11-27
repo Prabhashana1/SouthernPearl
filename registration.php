@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(isset($_SESSION["user"])){
+   header("location: index.php");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style-registration.css">
+    <link rel="stylesheet" href="style-registration-login.css">
 </head>
 <body>
     <div class="container">
@@ -66,6 +73,7 @@
         ?>
 
         <form action="registration.php" method="post">
+        <div class="text-center text-primary"><h1>Register Here</h1></div>
             <div class="form-group">
                 <input type="text" class="form-control" name="fullname" placeholder="Full Name:">
             </div>
@@ -82,5 +90,8 @@
                 <input type="submit" class="btn btn-primary" value="Register" name="submit">
             </div>
         </form>
+        <div>
+            <div><p>Already have an account? <a href="login.php">Login Here!</a></p></div>
+        </div>
 </body>
 </html>
